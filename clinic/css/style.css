@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+html {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif sans-serif;
+}
+
+header {
+  background-image: url(../images/slider-bg-2.jpg);
+  height: 700px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* welcome */
+
+.welcome h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* excellence */
+.sevan {
+  background-image: url(../images/bg2.jpg);
+  height: 671px;
+}
+
+.sevan .col-6 {
+  margin-top: 150px;
+}
+
+.sevan .h2-marg {
+  margin-bottom: 18px;
+}
+
+.sevan .h4-marg {
+  margin-left: 10px;
+}
+
+.sevan .row-marg {
+  margin-top: 45px;
+}
+
+.sevan .p_marg {
+  margin-left: 45px;
+  color: #999999;
+}
+
+/* provide */
+.title-provide {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.temoignages {
+  /* border: 5px solid red; */
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin-top: 30px;
+}
+
+.temoignage p {
+  color: #a69999;
+}
+.temoignage {
+  text-align: center;
+
+  /* border: 2px solid green; */
+  height: 200px;
+  width: 32%;
+}
+
+.h2-size {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.temoignage img {
+  margin-bottom: 20px;
+}
+
+/* formulaire */
+.formulaire {
+  background-image: url(../images/bg.jpg);
+}
+
+#btn-next {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* footer */
+
+ul.text-black-50:nth-child(1) {
+  margin-top: 12%;
+}
+.mail {
+  border-style: none;
+  margin-top: 5%;
+}
+.info h6 {
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.info p {
+  font-size: 22px;
+}

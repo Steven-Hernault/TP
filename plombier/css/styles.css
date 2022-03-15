@@ -1,0 +1,900 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  color: blue;
+  margin: 20px 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+}
+
+/* HEADER */
+header {
+  background-image: url(../images/plombier.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.semi-transparent {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top h1 {
+  color: white;
+  font-weight: bold;
+  text-decoration: overline rgb(6, 144, 199) 7px;
+  padding-top: 5px;
+}
+
+.contact {
+  display: flex;
+  gap: 50px;
+}
+
+.contact p {
+  color: rgb(202, 198, 198);
+}
+.contact p::first-line {
+  color: white;
+  margin-bottom: 15px;
+  line-height: 40px;
+  font-size: 1.3rem;
+}
+
+/* NAVBAR */
+nav {
+  height: 65px;
+  background: black;
+  margin-top: 30px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+}
+
+nav li:last-child {
+  margin-left: auto;
+}
+
+nav a {
+  color: white;
+  padding: 23px;
+  line-height: 65px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav li:last-child a {
+  padding: 23px 40px;
+  background: blue;
+  border: 1px solid blue;
+}
+
+.local {
+  margin-top: 12rem;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+.local h3 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.local h1 {
+  font-size: 4rem;
+  color: white;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.local h3,
+.local p {
+  color: rgb(223, 219, 219);
+}
+
+.contact-btn a,
+.about button {
+  padding: 20px;
+  background: #234bfa;
+  border: 1px solid #234bfa;
+  font-size: 0.9rem;
+  margin-right: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-btn a:last-child {
+  background: transparent;
+  border: 1px solid white;
+  padding: 20px 30px;
+}
+
+/* ABOUT */
+section .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  margin: 110px 0;
+}
+
+.about img {
+  width: 50%;
+  max-width: 50%;
+}
+
+.about article {
+  width: 50%;
+  padding: 0 7%;
+}
+
+.about ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  column-fill: balance;
+  padding: 0 20px 0 20px;
+}
+
+.about p,
+.choose p,
+.form-contact p {
+  font-size: 1.1rem;
+  color: gray;
+  margin: 37px 0;
+}
+
+.about ul {
+  margin: 0 0 37px 0;
+  padding: 0;
+}
+
+.about li {
+  margin: 0 0 12px 0;
+  color: gray;
+  font-weight: bold;
+}
+
+.about li svg {
+  color: #3b7ed5;
+  font-size: 1.3rem;
+  margin-right: 12px;
+}
+/* CHOOSE */
+.choose {
+  background: #f5f5f5;
+  padding: 2rem 0;
+}
+
+.choose article,
+.choose img {
+  width: 50%;
+}
+
+.choose h3 {
+  display: inline;
+  font-size: 2rem;
+}
+
+.choose ul svg {
+  font-size: 3rem;
+  color: #5c85e7;
+  margin-right: 25px;
+  position: relative;
+  top: 17px;
+}
+
+.choose ul p {
+  margin: 1rem 4.8rem;
+}
+
+.services .container,
+.temoignages .container {
+  display: block;
+}
+
+.services h4,
+.services h2 {
+  text-align: center;
+  padding: 0;
+  margin: 20px 0 50px 0;
+}
+
+.services h4 {
+  margin: 115px 0 0 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+.service-elem {
+  width: 32%;
+}
+
+.service-elem img {
+  width: 100%;
+  max-width: 100%;
+  height: 250px;
+}
+
+.services-liste {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-elem div {
+  background: white;
+  margin: 0 6%;
+  text-align: center;
+  padding: 5%;
+  position: relative;
+  top: -18%;
+}
+
+.service-elem svg {
+  color: blue;
+  font-size: 3.5rem;
+  margin: 4%;
+}
+
+.service-elem h3 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 25px 0;
+}
+
+.service-elem p,
+.temoignage p,
+.temoignage span {
+  color: gray;
+  font-size: 1.1rem;
+}
+
+.temoignages {
+  padding-top: 123px;
+  background: blue;
+}
+
+.temoignage {
+  width: 30%;
+  padding: 1%;
+  background: white;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.temoignages .container h2 + div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temoignage svg {
+  color: blue;
+  /* faire une rotation de l'icone */
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  font-size: 4rem;
+}
+
+.temoignage p {
+  line-height: 1.8rem;
+}
+
+.user img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.user span::first-line {
+  font-weight: bold;
+}
+
+.user span::last-line {
+  font-size: 0.8rem;
+}
+
+.temoignages h5,
+.temoignages h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.temoignages h2 {
+  margin: 20px 0 66px 0;
+  font-size: 3rem;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 0;
+}
+
+.clients img {
+  width: 25%;
+  height: 165px;
+}
+
+.form-contact {
+  background: url(../images/contact.png) #f7f7f7 no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding: 110px 0;
+}
+
+.form-contact .container {
+  align-items: center;
+}
+
+.form-contact .container > div {
+  width: 50%;
+}
+
+.form-contact h3 {
+  font-size: 1.8rem;
+  margin-top: 55px;
+}
+
+.form-contact form {
+  width: 60%;
+  padding: 9%;
+  background: rgba(0, 11, 182, 0.5);
+  margin-left: 10%;
+}
+
+.form-contact input,
+.form-contact label {
+  border: none;
+  outline: none;
+  color: #3257fa;
+  font-size: 1.1rem;
+  width: 5%;
+  margin: 2%;
+}
+
+.form-contact input:focus,
+.form-contact input {
+  outline: none;
+  color: gray;
+  width: 87%;
+}
+
+.form-contact input::placeholder {
+  font-size: 1.1rem;
+  color: #070606;
+}
+
+.form-elem {
+  display: flex;
+  align-items: center;
+  background: white;
+  height: 55px;
+  margin-bottom: 20px;
+}
+
+.form-contact input[type="submit"] {
+  background: black;
+  color: #f2eeee;
+  width: 100%;
+  margin: 0;
+  height: 55px;
+  font-size: 1.5rem;
+}
+
+footer {
+  background: black;
+  color: gray;
+  padding: 100px 0;
+}
+
+footer .container div {
+  width: 24%;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p + ul li {
+  display: inline-block;
+  background: #262626;
+  margin-right: 12px;
+  min-width: 20px;
+  text-align: center;
+  padding: 12px;
+}
+
+footer p {
+  margin: 30px 0;
+}
+
+footer a,
+footer a:visited {
+  color: white;
+}
+
+footer .container:first-child {
+  border-bottom: 1px solid #3c3636;
+  padding-bottom: 80px;
+}
+footer h4 + ul li {
+  margin: 14px 0;
+  padding: 0;
+  display: flex;
+}
+
+footer h4 + ul a {
+  color: gray !important;
+  font-size: 1.2rem;
+}
+
+footer h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 9px 0 30px 0;
+}
+
+footer .container div:nth-child(3) svg {
+  color: #3257fa;
+  font-size: 1.2rem;
+  margin: 3px 8px 0 0;
+  width: 10%;
+}
+
+footer .container div:last-child img {
+  width: 28%;
+  height: 55px;
+  margin: 2%;
+}
+
+footer > div:last-child {
+  text-align: center;
+  margin-top: 45px;
+  display: block;
+}
+
+@media (max-width: 575.98px) {
+  header,
+  .top,
+  .contact,
+  nav ul,
+  section .container,
+  .user,
+  .temoignages .container h2 + div,
+  .clients,
+  .form-elem,
+  footer .container,
+  footer h4 + ul a {
+    display: block;
+    text-align: center;
+  }
+
+  nav {
+    visibility: hidden;
+  }
+
+  .local {
+    width: auto;
+  }
+
+  .contact-btn a:first-child {
+    margin-right: 0px;
+    margin-left: 50px;
+  }
+
+  article {
+    margin: auto;
+  }
+
+  .choose article {
+    margin-left: 90px;
+  }
+
+  .choose svg {
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+
+  .choose article p {
+    margin: 20px;
+  }
+
+  .services h2 {
+    padding: 50px;
+  }
+  .services-liste {
+    display: flex;
+  }
+
+  .services-liste p {
+    font-size: 0.7rem;
+  }
+
+  .temoignages,
+  .temoignage {
+    margin: auto;
+    width: auto;
+  }
+
+  .temoignages svg {
+    margin: 20px;
+  }
+
+  .form-contact .container > div {
+    display: block;
+    margin: 10%;
+  }
+
+  .form-contact form {
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-contact .container div:first-child {
+    width: auto;
+  }
+
+  .container,
+  footer {
+    width: auto;
+  }
+  footer .container div {
+    display: block;
+    width: auto;
+  }
+
+  header {
+    background: blue;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header,
+  .top,
+  .contact,
+  nav ul,
+  section .container,
+  .user,
+  .temoignages .container h2 + div,
+  .clients,
+  .form-elem,
+  footer .container,
+  footer h4 + ul a {
+    display: block;
+    text-align: center;
+  }
+
+  nav {
+    visibility: hidden;
+  }
+
+  .local {
+    width: auto;
+  }
+
+  .contact-btn a:first-child {
+    margin-right: 0px;
+    margin-left: 50px;
+  }
+
+  article {
+    margin: auto;
+  }
+
+  .choose svg {
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+
+  .choose article p {
+    margin: 20px;
+  }
+
+  .services h2 {
+    padding: 50px;
+  }
+  .services-liste {
+    display: flex;
+  }
+
+  .services-liste p {
+    font-size: 1.1rem;
+  }
+
+  .clients img{
+    width: 20%;
+
+  }
+
+  .temoignages,
+  .temoignage {
+    margin: auto;
+    width: auto;
+  }
+
+  .temoignages svg {
+    margin: 20px;
+  }
+
+  .form-contact .container > div {
+    display: block;
+    margin: 10%;
+  }
+
+  .form-contact form {
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-contact .container div:first-child {
+    width: auto;
+  }
+
+  .container,
+  footer {
+    width: auto;
+  }
+  footer .container div {
+    display: block;
+    width: auto;
+  }
+
+  header {
+    background: blue;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  header,
+  .top,
+  .contact,
+  nav ul,
+  section .container,
+  .user,
+  .temoignages .container h2 + div,
+  .clients,
+  .form-elem,
+  footer .container,
+  footer h4 + ul a {
+    display: block;
+    text-align: center;
+  }
+
+  nav {
+    visibility: hidden;
+  }
+
+  .local {
+    width: auto;
+  }
+
+  .contact-btn a:first-child {
+    margin-right: 0px;
+    margin-left: 50px;
+  }
+
+  article {
+    margin: auto;
+  }
+
+  .choose svg {
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+
+  .choose article p {
+    margin: 20px;
+  }
+
+  .services h2 {
+    padding: 50px;
+  }
+  .services-liste {
+    display: flex;
+  }
+
+  .services-liste p {
+    font-size: 1.1rem;
+  }
+
+  .clients img{
+    width: 20%;
+
+  }
+
+  .temoignages,
+  .temoignage {
+    margin: auto;
+    width: auto;
+  }
+
+  .temoignages svg {
+    margin: 20px;
+  }
+
+  .form-contact .container > div {
+    display: block;
+    margin: 10%;
+  }
+
+  .form-contact form {
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-contact .container div:first-child {
+    width: auto;
+  }
+
+  .container,
+  footer {
+    width: auto;
+  }
+  footer .container div {
+    display: block;
+    width: auto;
+  }
+
+  header {
+    background: blue;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+  header,
+  .top,
+  .contact,
+  nav ul,
+  section .container,
+  .user,
+  .temoignages .container h2 + div,
+  .clients,
+  .form-elem,
+  footer .container,
+  footer h4 + ul a {
+    display: block;
+    text-align: center;
+  }
+
+  nav {
+    visibility: hidden;
+  }
+
+  .local {
+    width: auto;
+  }
+
+  .contact-btn a:first-child {
+    margin-right: 0px;
+    margin-left: 50px;
+  }
+
+  article {
+    margin: auto;
+  }
+
+  .choose svg {
+    display: block;
+    margin-left: 225px;
+    margin-bottom: 20px;
+  }
+
+  .choose article p {
+    margin: 20px;
+  }
+
+  .services h2 {
+    padding: 50px;
+  }
+  .services-liste {
+    display: flex;
+  }
+
+  .services-liste p {
+    font-size: 1.1rem;
+  }
+
+  .clients img{
+    width: 20%;
+
+  }
+
+  .temoignages,
+  .temoignage {
+    margin: auto;
+    width: auto;
+  }
+
+  .temoignages svg {
+    margin: 20px;
+  }
+
+  .form-contact .container > div {
+    display: block;
+    margin: 10%;
+  }
+
+  .form-contact form {
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-contact .container div:first-child {
+    width: auto;
+  }
+
+  .container,
+  footer {
+    width: auto;
+  }
+  footer .container div {
+    display: block;
+    width: auto;
+  }
+
+  header {
+    background: blue;
+  }
+
+
+
+}

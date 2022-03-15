@@ -1,0 +1,40 @@
+{
+  "contacts": [
+    {
+      "id": "1646841376217",
+      "nom": "Steven",
+      "prenom": "Hernault",
+      "adresse": "25 Rue de chantilly",
+      "email": "steven@gmail.com",
+      "tel": "0782572975",
+      "categorie": "Travail"
+    },
+    {
+      "nom": "Steven",
+      "prenom": "Hernault",
+      "adresse": "25 Rue de chantilly",
+      "email": "steven@gmail.com",
+      "tel": "0782572975",
+      "categorie": "Amis",
+      "id": "1646841384637"
+    },
+    {
+      "id": "1646896833231",
+      "nom": "Dicta repellendus O",
+      "prenom": "vozuloq@mailinator.com",
+      "adresse": "Beatae adipisicing q",
+      "email": "vyjekiw@mailinator.com",
+      "tel": "+1 (887) 614-6242",
+      "categorie": "Amis"
+    },
+    {
+      "id": "1646920174001",
+      "nom": "Libero nisi magna il",
+      "prenom": "misupimas@mailinator.com",
+      "adresse": "Maxime ad culpa ut m",
+      "email": "zynexary@mailinator.com",
+      "tel": "+1 (465) 228-1473",
+      "categorie": "Famille"
+    }
+  ]
+}
