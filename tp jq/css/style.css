@@ -1,0 +1,36 @@
+.formulaire {
+    display: flex;
+    justify-content: center;
+    
+   }
+
+body {
+    background: #CFD0D3;
+    
+}
+
+.oklm {
+    width: 50%;
+    margin: auto;
+   }
+
+.oklm button {
+    border-style: none;
+background: white;
+}
+
+.oklm button:hover{
+    background: #757575;
+}
+
+.card-body{
+    
+border-radius: 25px;
+}
+
+.card {
+    background: #90CAF9;
+    border-radius: 25px;
+}
+
+

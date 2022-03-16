@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TP Jquery</title>
+  </head>
+  <body>
+    <div class="formulaire">
+      <div class="card mt-4 mb-4" style="width: 35rem;">
+        <div class="card-body">
+        
+    <form class="mx-3 my-1" id="generateur" method="get">
+      <div class="style">
+        <label class="my-3" for="nom-produit">Nom Produit</label>
+        <input class="form-control" type="text" id="produit" name="produit" />
+
+        <label class="my-3" for="marque">Marque</label>
+        <input class="form-control" type="text" id="marque" name="marque" />
+
+        <label class="my-3" for="modele">Modele</label>
+        <input class="form-control" type="text" id="modele" name="modele" />
+      </div>
+
+      <div class="style">
+        <label class="my-3" for="reference">Reference</label>
+        <input class="form-control" type="text" id="reference" name="reference" />
+
+        <label class="my-3" for="specification">Specification</label>
+        <input class="form-control" type="text" id="specification" name="specification" />
+
+        <textarea class="my-3 col-md-12" name="" id="copierarea" cols="35" rows="5"></textarea>
+      </div>
+<div class="oklm">
+      <button class="btn my-1 form-control" type="button">Gérer</button>
+      <button class="btn my-1 form-control" type="reset">Reset</button>
+      <button class="btn my-1 form-control" onclick="copierTexte(event)" type="button">Copier</button>
+    </div>
+    </form>
+  </div>
+</div>
+  </div>
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
+
+
+
